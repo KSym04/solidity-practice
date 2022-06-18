@@ -6,7 +6,7 @@ contract Variables {
     // Uint 256
     uint256 public myUint;
 
-    function setMyUint(uint _myUint) public {
+    function setMyUint(uint256 _myUint) public {
         myUint = _myUint;
     }
 
@@ -35,7 +35,7 @@ contract Variables {
         myAddress = _myAddress;
     }
 
-    function getBalanceOfAddress() public view returns(uint) {
+    function getBalanceOfAddress() public view returns (uint256) {
         return myAddress.balance;
     }
 

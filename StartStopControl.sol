@@ -12,9 +12,7 @@ contract StartStopUpdateExample {
     }
 
     // Send money payables.
-    function sendMoney() public payable {
-
-    }
+    function sendMoney() public payable {}
 
     // Set paused state.
     function setPaused(bool _paused) public {
